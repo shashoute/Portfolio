@@ -106,3 +106,46 @@ body{
     text-align: center;
 }
 
+/* src: https://codepen.io/Mark_Bell00/pen/vYELmNM */
+
+nav .primary-navigation {
+    margin: 0 auto;
+    display: block;
+
+    padding: 120px 0 0 0;
+    text-align: center;
+    font-size: 16px; /**************/
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 auto;
+    border-left: 2px solid #92140C; /**************/
+    display: inline-block;
+    padding: 0 30px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    font-family: arvo; /**************/
+}
+
+nav li a {
+    color: #242331;
+}
+
+nav li a:hover {
+    color: #92140C;
+}
+
+nav li:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3ca0e7;
+}
+
